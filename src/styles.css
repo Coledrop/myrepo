@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e0e0ff;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(72, 0, 128, 0.9);
+    padding: 15px;
+    text-align: left;
+}
+
+nav a {
+    color: #b380ff;
+    margin: 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #d6b3ff;
+}
+
+p, ul, ol {
+    color: #e0e0ff;
+}
+
+#about, #skills, #projects, #contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#skills ul, #projects ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    color: #d6b3ff;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d6b3ff;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+button {
+    background-color: #b380ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+hr {
+    border-color: rgba(104, 34, 191, 0.8);
+    margin: 0;
+}
